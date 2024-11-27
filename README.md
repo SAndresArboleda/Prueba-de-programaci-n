@@ -3,7 +3,7 @@
 
 <!-- Logo -->
 <p align="center">
-    <img width="180" src= ".\Clanand3.JPG" >
+    <img width="180" src= "Cliente\public\Clanand3.JPG" >
 </p>
 
 <!-- Links Recursos Usados -->

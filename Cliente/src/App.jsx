@@ -73,7 +73,7 @@ function SopaLetras() {
 
   const buscarPalabra = () => {
     const matrizBid = convertirMatriz(matriz)
-    const listaPalabras = palabras.split(',').map(pal => pal.trim()).filter(lis=>lis.length > 0)
+    const listaPalabras = palabras.split(',').map(pal => pal.trim()).filter(lis => lis.length > 0)
     const encontradasTemp = [];
     const noEncontradasTemp = [];
     listaPalabras.forEach(pala => {
@@ -125,6 +125,12 @@ function SopaLetras() {
             <strong>Palabras No Encontradas {noEncontradas.length}</strong>
             <p>{noEncontradas.join(', ')}</p>
           </div>
+          <iframe
+            src="/GuiaUsuario.pdf"
+            width="100%"
+            height="250px"
+            title="Guía de Uso"
+          />
         </section>
       </div>
     </div>

@@ -30,11 +30,11 @@ function SopaLetras() {
     const numColumnas = matrizBidemensional[0].length;
 
     for (let c = 0; c < numColumnas; c++) {
-      let letrasColumn = "";
+      let letrasVertical = "";
       for (let f = 0; f < numFilas; f++) {
-        letrasColumn += matrizBidemensional[f][c]
+        letrasVertical += matrizBidemensional[f][c]
       }
-      if (letrasColumn.includes(palabra) || letrasColumn.includes(palabraStrRev)) {
+      if (letrasVertical.includes(palabra) || letrasVertical.includes(palabraStrRev)) {
         return true
       }
     }

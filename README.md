@@ -24,7 +24,7 @@
 
 # Guia
 ### Recursos Especiales
- * Consultas en internet en paginas como stack overflow, freeCodeCamp, Chat GPT
+ * No se Utilizaron recursos especiales
 
 ### Tecnologías Utilizadas
  * JavaScript, React, CSS, HTML, Visual Studio Code, Vite

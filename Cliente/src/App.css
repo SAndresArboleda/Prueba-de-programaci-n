@@ -71,7 +71,8 @@
 }
 
 .resultado1, .resultado2 {
-  margin-top: 20px;
+  margin-top: 15px;
+  width: 600px;
 }
 
 .resultado1, .resultado2 strong {
@@ -82,19 +83,22 @@
 
 .resultado1 p {
   margin: 0;
-  padding: 10px;
+  padding: 5px;
   border-radius: 4px;
   background-color: #E8F5E9;
   color: #2E7D32;
-  height: 70px;
+  height: 90px;
+  font-size: 15px;
 }
 .resultado2 p {
   margin: 0;
-  padding: 10px;
+  padding: 5px;
   border-radius: 4px;
   background-color: #f3d8d5;
   color: #df6b6b;
-  height: 70px;
+  height: 80px;
+  font-size: 15px;
+
 }
 .ejemplo{
   width: 250px;

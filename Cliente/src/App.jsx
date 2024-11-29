@@ -63,7 +63,7 @@ function SopaLetras() {
         for (let i = 0; f + i < numFilas && c - i < numColumnas; i++) {
           letrasDiag += matrizBidemensional[f + i][c - i];
         }
-        if (letrasDiag.includes(palabra) | letrasDiag.includes(palabraStrRev)) {
+        if (letrasDiag.includes(palabra) || letrasDiag.includes(palabraStrRev)) {
           return true
         }
       }
